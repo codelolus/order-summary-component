@@ -21,7 +21,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- Live Site URL: [CLICK]([https://your-live-site-url.com](https://transcendent-heliotrope-b34cd7.netlify.app))
+- Live Site URL: [CLICK]([https://your-live-site-url.com](https://transcendent-heliotrope-b34cd7.netlify.app)
 
 
 ### Built with
