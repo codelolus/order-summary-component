@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+.pattern {
+    position: fixed;
+    top: 0;
+}
+
+.container {
+    display: flex;
+    margin-top: 10vh;
+    justify-content: center;
+}
+
+.box {
+    z-index: 1;
+    width: 450px;
+    height: 44rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: 5px 5px 15px #d8d8d8;
+}
+
+.hero {
+    border-radius: 1rem 1rem 0 0;
+}
+
+
+.header-text {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    transform: translateY(2vh);
+}
+
+.header-text>h1 {
+    line-height: 1;
+}
+
+.header-text>p {
+    width: 300px;
+    margin: auto;
+    color: #8c90a5;
+}
+
+.pricing {
+    margin: auto;
+    width: 350px;
+    height: 3rem;
+    padding: 1.2rem;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    transform: translateY(6vh);
+    background-color: #f8f9fe;
+    justify-content: space-between;
+
+}
+
+.plan-info {
+    gap: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plan-desc {
+    font-size: 1rem;
+}
+
+.plan-desc {
+    font-weight: 900;
+}
+
+.plan-desc>p>span {
+    font-weight: 500;
+    color: #767a96;
+    font-size: 0.9rem;
+}
+
+a {
+    color: #7b71dc;
+    font-size: 0.95rem;
+    text-decoration: none;
+}
+
+.buttons {
+    transform: translateY(10vh);
+}
+
+.payment>a {
+    color: #fff;
+    margin: auto;
+    width: 350px;
+    padding: 1rem;
+    display: flex;
+    font-weight: 700;
+    border-radius: 0.7rem;
+    justify-content: center;
+    box-shadow: 0 15px 10px hsla(245, 75%, 52%, 0.178);
+    background-color: hsl(245, 75%, 52%);
+}
+
+.cancel>a {
+    display: flex;
+    color: #242c41;
+    font-weight: 700;
+    transform: translateY(4vh);
+    justify-content: center;
+}
+
+.attribution {
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin: 0;
+    padding: 1rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    font-weight: bold;
+}
