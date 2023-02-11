@@ -33,5 +33,5 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ## Author
 
-- Website - [mufaro.me](https://lolowicz.pl)
+- Website - [lolowicz.pl](https://lolowicz.pl)
 - Frontend Mentor - [@codelolus](https://www.frontendmentor.io/profile/codelolus)
